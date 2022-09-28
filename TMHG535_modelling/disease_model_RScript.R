@@ -43,9 +43,9 @@ legend(locator(1),legend=c("S","I"),col=c('blue','red'),lty=rep(1,2))
 #SIS Deterministic Model
 
 SIS.dyn <- function(t,var,par) {
+  
   S <- var[1]
   I <- var[2]
-  
   beta <- par[1]
   gamma <- par[2]
   N<-S+I

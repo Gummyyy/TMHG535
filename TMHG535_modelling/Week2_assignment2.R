@@ -94,3 +94,4 @@ points(TIME,S,type='l',col='blue',lwd=3)
 points(TIME,I,type='l',col='red',lwd=3)
 points(TIME,R,type='l',col='green',lwd=3)
 legend(locator(1),legend=c("S","I","R"),col=c('blue','red','green'),lty=rep(1,3))
+
